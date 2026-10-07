@@ -1,0 +1,20 @@
+# Runtime output. These files can contain absolute paths, PIDs, service names,
+# temporary file names, and other machine-specific details.
+*.log
+robocopy-*.log
+migration-state*.json
+*.previous
+
+# Local migration copies and test data.
+.codex*
+tests-guarded/**/source/
+tests-guarded/**/destination/
+tests-guarded/**/*.sqlite*
+tests-guarded/**/*.db*
+tests-guarded/**/*.log
+tests-guarded/**/*.json
+
+# Editor and PowerShell temporary files.
+*.swp
+*.tmp
+.DS_Store
