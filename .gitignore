@@ -18,3 +18,10 @@ tests-guarded/**/*.json
 *.swp
 *.tmp
 .DS_Store
+
+# Credential and local database files.
+.env*
+auth.json
+*.credentials*
+*.sqlite*
+*.db*
